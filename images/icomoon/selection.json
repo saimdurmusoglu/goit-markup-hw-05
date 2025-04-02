@@ -22,7 +22,7 @@
           "antenna"
         ],
         "colorPermutations": {
-          "2442442531464766177902291": [
+          "24424425312552552551464766177902291": [
             {
               "f": 0
             },
@@ -41,13 +41,13 @@
         }
       ],
       "properties": {
-        "order": 2,
-        "id": 7,
+        "order": 11,
+        "id": 8,
         "name": "antenna",
         "prevSize": 32
       },
       "setIdx": 0,
-      "setId": 2,
+      "setId": 3,
       "iconIdx": 0
     },
     {
@@ -147,7 +147,7 @@
           "astronaut"
         ],
         "colorPermutations": {
-          "2442442531464766177902291": [
+          "24424425312552552551464766177902291": [
             {
               "f": 1
             },
@@ -280,13 +280,13 @@
         }
       ],
       "properties": {
-        "order": 3,
-        "id": 6,
+        "order": 12,
+        "id": 7,
         "name": "astronaut",
         "prevSize": 32
       },
       "setIdx": 0,
-      "setId": 2,
+      "setId": 3,
       "iconIdx": 1
     },
     {
@@ -318,7 +318,7 @@
           "clock"
         ],
         "colorPermutations": {
-          "2442442531464766177902291": [
+          "24424425312552552551464766177902291": [
             {
               "f": 0
             },
@@ -349,13 +349,13 @@
         }
       ],
       "properties": {
-        "order": 4,
-        "id": 5,
+        "order": 13,
+        "id": 6,
         "name": "clock",
         "prevSize": 32
       },
       "setIdx": 0,
-      "setId": 2,
+      "setId": 3,
       "iconIdx": 2
     },
     {
@@ -391,7 +391,7 @@
           "diagram"
         ],
         "colorPermutations": {
-          "2442442531464766177902291": [
+          "24424425312552552551464766177902291": [
             {
               "f": 1
             },
@@ -428,13 +428,13 @@
         }
       ],
       "properties": {
-        "order": 5,
-        "id": 4,
+        "order": 14,
+        "id": 5,
         "name": "diagram",
         "prevSize": 32
       },
       "setIdx": 0,
-      "setId": 2,
+      "setId": 3,
       "iconIdx": 3
     },
     {
@@ -454,7 +454,7 @@
           "facebook"
         ],
         "colorPermutations": {
-          "2442442531464766177902291": [
+          "24424425312552552551464766177902291": [
             {
               "f": 2
             }
@@ -467,13 +467,13 @@
         }
       ],
       "properties": {
-        "order": 6,
-        "id": 3,
+        "order": 15,
+        "id": 4,
         "name": "facebook",
         "prevSize": 32
       },
       "setIdx": 0,
-      "setId": 2,
+      "setId": 3,
       "iconIdx": 4
     },
     {
@@ -501,7 +501,7 @@
           "instagram"
         ],
         "colorPermutations": {
-          "2442442531464766177902291": [
+          "24424425312552552551464766177902291": [
             {
               "f": 2
             },
@@ -526,13 +526,13 @@
         }
       ],
       "properties": {
-        "order": 7,
-        "id": 2,
+        "order": 16,
+        "id": 3,
         "name": "instagram",
         "prevSize": 32
       },
       "setIdx": 0,
-      "setId": 2,
+      "setId": 3,
       "iconIdx": 5
     },
     {
@@ -560,7 +560,7 @@
           "linkedin"
         ],
         "colorPermutations": {
-          "2442442531464766177902291": [
+          "24424425312552552551464766177902291": [
             {
               "f": 2
             },
@@ -585,14 +585,53 @@
         }
       ],
       "properties": {
-        "order": 8,
-        "id": 1,
+        "order": 17,
+        "id": 2,
         "name": "linkedin",
         "prevSize": 32
       },
       "setIdx": 0,
-      "setId": 2,
+      "setId": 3,
       "iconIdx": 6
+    },
+    {
+      "icon": {
+        "paths": [
+          "M1024 85.333l-1024 480 327.251 101.001 504.749-394.334-383.927 431.629 0.311 0.098-0.384-0.098v235.038l183.522-178.419 232.482 71.753 159.996-746.667z"
+        ],
+        "attrs": [
+          {
+            "fill": "rgb(255, 255, 255)"
+          }
+        ],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "grid": 0,
+        "tags": [
+          "Subscribe"
+        ],
+        "colorPermutations": {
+          "24424425312552552551464766177902291": [
+            {
+              "f": 3
+            }
+          ]
+        }
+      },
+      "attrs": [
+        {
+          "fill": "rgb(255, 255, 255)"
+        }
+      ],
+      "properties": {
+        "order": 18,
+        "id": 1,
+        "name": "Subscribe",
+        "prevSize": 32
+      },
+      "setIdx": 0,
+      "setId": 3,
+      "iconIdx": 7
     },
     {
       "icon": {
@@ -611,7 +650,7 @@
           "twitter"
         ],
         "colorPermutations": {
-          "2442442531464766177902291": [
+          "24424425312552552551464766177902291": [
             {
               "f": 2
             }
@@ -624,14 +663,14 @@
         }
       ],
       "properties": {
-        "order": 9,
+        "order": 19,
         "id": 0,
         "name": "twitter",
         "prevSize": 32
       },
       "setIdx": 0,
-      "setId": 2,
-      "iconIdx": 7
+      "setId": 3,
+      "iconIdx": 8
     }
   ],
   "height": 1024,
@@ -659,10 +698,17 @@
       "color": 0,
       "bgColor": 16777215,
       "classSelector": ".icon",
-      "name": "icomoon"
+      "name": "icomoon",
+      "height": 32,
+      "columns": 16,
+      "margin": 16,
+      "autoHost": true
     },
     "historySize": 50,
     "showCodes": true,
-    "gridSize": 16
+    "gridSize": 16,
+    "quickUsageToken": {
+      "UntitledProject": "Y2IwNzkwMzcwYSMxNzQzNjExMDc2I2tHZ3pkcUYwdkZhZ1ZMNkNiVFRMWmpubkk1Q0YxNXlhdmhyYm1lTmtDQmhV"
+    }
   }
 }
