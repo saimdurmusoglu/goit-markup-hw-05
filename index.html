@@ -34,7 +34,7 @@
               <a href="#" class="navbar-links medium active">Studio</a>
             </li>
             <li class="navbar-item">
-              <a href="#" class="navbar-links medium">Portfolio</a>
+              <a href="#portfolio" class="navbar-links medium">Portfolio</a>
             </li>
             <li class="navbar-item">
               <a href="#" class="navbar-links medium">Contacts</a>
@@ -309,7 +309,7 @@
       <!-- Team Section End -->
 
       <!-- Portfolio Section Start -->
-      <section class="section portfolio">
+      <section class="section portfolio" id="portfolio">
         <div class="container">
           <h2>Our Portfolio</h2>
 
@@ -502,12 +502,22 @@
           </ul>
         </div>
         <div class="subscribe">
-          <form action="">
-            <label>
-              Subscribe
-              <input type="email" name="mail" placeholder="E-mail" />
+          <form class="form-subcribe" name="subcribe_form" autocomplete="off">
+            <label class="form-label">
+              Subscribe <br />
+              <input
+                class="form-input"
+                type="email"
+                name="email"
+                placeholder="E-mail"
+              />
             </label>
-            <button type="submit">Subscribe</button>
+            <button class="form-button" type="submit">
+              Subscribe
+              <svg class="icon">
+                <use href="./images/icons.svg#icon-Subscribe"></use>
+              </svg>
+            </button>
           </form>
         </div>
       </div>
