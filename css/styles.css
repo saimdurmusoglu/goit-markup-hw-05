@@ -775,7 +775,7 @@ address a:hover {
   margin-bottom: 24px;
 }
 
-.modal-content .form-contact .form-label-2 .form-checkbox {
+#check {
   display: flex;
   width: 16px;
   height: 16px;
@@ -785,11 +785,11 @@ address a:hover {
   opacity: 1;
 }
 
-.modal-content .form-contact .form-label-2 .form-checkbox:checked {
+#check:checked {
   opacity: 0;
 }
 
-.modal-content .form-contact .form-label-2 .icns {
+.checkmark {
   position: absolute;
   top: -2px;
   left: -2px;
@@ -800,14 +800,14 @@ address a:hover {
   justify-content: center;
 }
 
-.modal-content .form-contact .form-label-2 .icns .icon {
+.checkmark .icon {
   display: inline-block;
   width: 20px;
   height: 20px;
   fill: var(--iris);
 }
 
-.modal-content .form-contact .form-label-2 .form-checkbox:checked + .icns {
+#check:checked ~ .checkmark {
   display: block;
 }
 
