@@ -781,6 +781,27 @@ address a:hover {
   border: none;
   padding: 8px 0;
   outline: none;
+  opacity: 1;
+}
+
+.modal-content .form-contact .form-label-2 .form-checkbox:checked {
+  opacity: 0;
+}
+
+.modal-content .form-contact .form-label-2 .icon {
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  fill: var(--iris);
+}
+
+.form-label-2 input:checked > .form-label-2 .icon {
+  display: inline-block;
 }
 
 .form-contact .form-button {
