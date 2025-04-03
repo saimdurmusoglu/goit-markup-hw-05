@@ -86,7 +86,7 @@ h3 {
 }
 
 /* small text properties */
-small {
+.small {
   font-size: 12px;
   font-weight: var(--regular);
   line-height: 14px;
@@ -168,6 +168,7 @@ button:hover {
   line-height: 1.33;
   letter-spacing: 0.48px; /* %4 harf aralığı - 12px font büyüklüğü için 0.48px eder */
   text-decoration: underline;
+  color: var(--iris);
 }
 
 /* main properties */
@@ -295,6 +296,7 @@ address a:hover {
 .hero {
   position: relative;
   height: calc(100vh - 72px);
+  min-height: 600px;
   margin: 72px auto 0;
   z-index: 100;
   background-color: var(--navy-blue);
@@ -315,6 +317,7 @@ address a:hover {
   left: 0;
   width: 100%;
   height: calc(100vh - 72px);
+  min-height: 600px;
   content: "";
   background-color: var(--grey);
   background-position: center;
@@ -503,7 +506,7 @@ address a:hover {
   align-items: center;
   width: 16px;
   height: 16px;
-  color: var(--cloud);
+  fill: var(--cloud);
 }
 
 /* portfolio */
@@ -617,6 +620,161 @@ address a:hover {
   color: var(--slate);
 }
 
+/* contacts modal div properties */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(46, 47, 66, 0.4);
+  z-index: 1100;
+  overflow: hidden;
+  display: none;
+}
+
+.modal-content {
+  width: 408px;
+  height: 584px;
+  background-color: var(--white);
+  border-radius: 4px;
+  box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2), 0 1px 3px rgba(0, 0, 0, 0.12),
+    0 1px 1px rgba(0, 0, 0, 0.14);
+  z-index: 1101;
+  margin: 80px auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 24px;
+}
+
+.modal-content .icons {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  height: 24px;
+  margin-bottom: 24px;
+}
+
+.modal-content .icons .icon-link {
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.48px;
+  text-decoration: none;
+  width: 24px;
+  height: 24px;
+  background-color: var(--cornflower);
+  border: 0.5px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-self: center;
+}
+
+.modal-content .icons .icon {
+  display: inline-block;
+  justify-content: center;
+  align-self: center;
+  width: 8px;
+  height: 8px;
+  fill: var(--navy-blue);
+}
+
+.modal-content p {
+  margin-bottom: 16px;
+}
+
+.modal-content .form-contact {
+  width: 360px;
+  text-align: justify;
+}
+
+.modal-content .form-contact .form-label {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-self: flex-start;
+  color: var(--light-slate);
+}
+
+.modal-content .form-contact .form-label .form-input {
+  width: 100%;
+  height: 40px;
+  border: 1px solid var(--navy-blue-modal);
+  border-radius: 4px;
+  padding: 8px 32px;
+  outline: none;
+}
+
+.modal-content .form-contact .form-label .form-input:focus {
+  border-color: var(--iris);
+  color: var(--iris);
+}
+
+.modal-content
+  .form-contact
+  .form-label:focus-within
+  > .form-input:focus
+  + .icon {
+  fill: var(--iris);
+  border-color: var(--iris);
+}
+
+.modal-content .form-contact .form-label .icon {
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  width: 12px;
+  height: 12px;
+  fill: var(--navy-blue);
+  position: absolute;
+  left: 16px;
+  top: 36px;
+}
+
+.modal-content .form-contact .form-label .form-textarea {
+  width: 100%;
+  border: 1px solid var(--navy-blue-modal);
+  border-radius: 4px;
+  padding: 8px 16px;
+  outline: none;
+  resize: none;
+}
+
+.modal-content .form-contact .form-label .form-textarea:focus {
+  border-color: var(--iris);
+  color: var(--iris);
+}
+
+.modal-content .form-contact .form-label-2 {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-self: flex-start;
+  color: var(--light-slate);
+  margin-bottom: 24px;
+}
+
+.modal-content .form-contact .form-label-2 .form-checkbox {
+  display: flex;
+  width: 16px;
+  height: 16px;
+  border: none;
+  padding: 8px 0;
+  outline: none;
+}
+
+.form-contact .form-button {
+  width: 169px;
+  margin: 0 96px 0 95px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+}
+
 /* footer */
 .page-footer {
   position: relative;
@@ -725,7 +883,7 @@ address a:hover {
   align-items: center;
   width: 24px;
   height: 24px;
-  color: var(--cloud);
+  fill: var(--cloud);
 }
 
 .page-footer .subscribe {
@@ -788,4 +946,6 @@ address a:hover {
   width: 24px;
   height: 24px;
   font-size: 12px;
+  display: inline-block;
+  fill: var(--white);
 }
