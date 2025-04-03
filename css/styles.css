@@ -711,6 +711,7 @@ address a:hover {
   gap: 8px;
   align-self: flex-start;
   color: var(--light-slate);
+  margin-bottom: 8px;
 }
 
 .modal-content .form-contact .form-label .form-input {
