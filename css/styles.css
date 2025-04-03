@@ -642,6 +642,10 @@ address a:hover {
   display: none;
 }
 
+.is-open {
+  display: block;
+}
+
 .modal-content {
   width: 408px;
   height: 584px;
