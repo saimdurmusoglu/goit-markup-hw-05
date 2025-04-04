@@ -182,7 +182,7 @@ main {
   height: 72px;
   background-color: var(--white);
   border-bottom: 1px solid var(--cornflower);
-  box-shadow: 0 10px 10px -10px var(--slate);
+  /* box-shadow: 0 10px 10px -10px var(--slate); */
   display: flex;
   justify-content: center;
   align-self: center;
